@@ -1,0 +1,101 @@
+.wrap{
+    width: 90%;
+    margin:auto;
+}
+.order{
+    margin: 0;
+    padding: 0;
+}
+.area{
+    width: 90%;
+    height: 80px;
+    border-radius: 8px;
+}
+.area ::placeholder{
+    color:#494d4e
+}
+::placeholder{
+    color:#494d4e
+}
+.MuiDialog-paperWidthSm {
+    width: 700px;
+}
+.check{
+    display: none;
+}
+.fakeCheck{
+    display:block;
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+    min-height: 18px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.check:checked ~ .fakeCheck {
+    background: #f4d962 url(../../images/check.svg) 50% 40% / 20px 20px no-repeat;
+    border-radius: 4px;
+}
+.yellow{
+    color: #f4d962;
+    text-decoration: underline;
+}
+.labelCheck{
+    display:flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.labelCheckRow{
+    display:flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.first{
+    padding-left: 10px;
+}
+.cardText{
+    color: #494d4e;
+}
+.card{
+    width: 45%;
+    padding: 5px 0;
+    border: 1px solid #494d4e;
+    border-radius: 8px; 
+}
+.line{
+    width: 90%;
+    margin-top: 20px
+}
+.devide{
+    display: flex;
+    flex-direction: column;
+}
+.gray{
+    font-size: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    color: #494d4e;
+}
+.price{
+    color: #494d4e;
+}
+.lowPut{
+    width: 30%;
+    padding: 5px 0;
+    border: 1px solid #494d4e;
+    border-radius: 8px;
+}
+::placeholder{
+    color: black
+}
+.send{
+    width: 40%;
+    height: 40px;
+    background: #f4d962;
+    color: white;
+    margin: auto;
+}
+.MuiButtonBase-root.send {
+    margin: auto;
+    background: #f4d962;
+}
